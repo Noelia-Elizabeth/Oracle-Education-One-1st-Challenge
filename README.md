@@ -22,3 +22,8 @@ Durante dos semanas, vamos a trabajar en una aplicación que encripta textos que
 - Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del `ctrl+C` o de la opción "copiar" del menú de las aplicaciones.
 
 Tenemos un periodo de tiempo de dos semanas para desarrollar el proyecto y vamos a trabajar con el sistema ágil de desarrollo, utilizando el Trello
+
+## *Enlaces de utilidad*
+
+- [Modelo en Figma](https://www.figma.com/file/trP3p5nEh7XUyB3n2bomjP/Alura-Challenge---Desafío-1---Lógica) 
+- [Link a mi Trello](https://trello.com/b/YQfKpDYL)
