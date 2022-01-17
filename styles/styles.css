@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+}
+
+:root {
+    --mainColor: #0A3871;
+    --grayColor: #495057;
+    --darkGrayColor: #343A40;
+}
+
+/***************Mobile******************/
+
+body {
+    background: #F3F5FC;
+}
+
+nav {
+    padding-left: 3%;
+    padding-top: 4%;
+}
+
+section {
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 30vh;
+}
+
+#text {
+    background-color: transparent;
+    border-color: transparent;
+    color: var(--mainColor);
+    font-size: 32px;
+    height: fit-content;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 6vh;
+    outline: transparent;
+    width: 95vw;
+}
+
+#text::placeholder {
+    color: var(--mainColor);
+    opacity: 1;
+  }
+
+#btns_container {
+    margin-top: 7vh;
+}
+
+#info_container {
+    display: flex;
+}
+
+#info_detail {
+    color: var(--grayColor);
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    margin-left: 8px;
+    text-align: left;
+}
+
+input[type="button"] {
+    border: 1px solid;
+    border-color: var(--mainColor);
+    border-radius: 24px;
+    color: var(--mainColor);
+    height: 8vh;
+    margin-bottom: 2vh;
+    width: 95vw;
+}
+
+#encrypt_btn {
+    background-color: var(--mainColor);
+    color: white;
+    margin-top: 2vh;
+}
+
+#msg_enc_dec {
+    background-color: white;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    margin-top: 4vh;
+    padding: 32px;
+}
+
+#msg_enc_dec>h4 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--darkGrayColor);
+}
+
+#msg_enc_dec>h5 {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-top: 3vh;
+    text-align: center;
+    width: 263px;
+    height: 48px;
+}
