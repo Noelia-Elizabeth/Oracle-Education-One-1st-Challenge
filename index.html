@@ -14,21 +14,22 @@
         </nav>
     </head>
     <main>
-        <section>
+        <section id="text_container">
             <textarea name="text" id="text" cols="30" rows="5" placeholder="Ingrese el texto aquí"></textarea>
-        </section>
-        <section id="btns_container">
-            <div id="info_container">
-                <img src="./assets/info icon.svg">
-                <p id="info_detail">Solo letras minúsculas y sin acentos</p>
-            </div>
-            <div>
-                <input id="encrypt_btn" type="button" value="Encriptar">
-                <input id="decrypt_btn" type="button" value="Desencriptar">
+            <div id="btns_container">
+                <div id="info_container">
+                    <img src="./assets/info icon.svg">
+                    <p id="info_detail">Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div id="buttons">
+                    <input id="encrypt_btn" type="button" value="Encriptar">
+                    <input id="decrypt_btn" type="button" value="Desencriptar">
+                </div>
             </div>
         </section>
         <section>
             <div id="msg_enc_dec">
+                <img src="./assets/not found.svg">
                 <h4>Ningún mensaje fue encontrado</h4>
                 <h5>Ingresa el texto que desees encriptar o desencriptar.</h5>
             </div>
