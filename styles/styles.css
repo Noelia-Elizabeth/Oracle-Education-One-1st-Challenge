@@ -118,6 +118,14 @@ input[type="button"] {
     text-align: center;
 }
 
+#msg_enc_dec>div {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: var(--mainColor);
+}
+
 /**************Desktop****************/
 
 @media (min-width: 1024px) {
@@ -148,6 +156,7 @@ input[type="button"] {
     
     #text {
         font-size: 2rem;
+        width: 50vw;
     }
     
     #info_container {
