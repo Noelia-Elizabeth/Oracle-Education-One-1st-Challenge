@@ -126,6 +126,25 @@ input[type="button"] {
     color: var(--mainColor);
 }
 
+footer {
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--mainColor);
+    color: white;
+    font-size: 14px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+footer>a>img {
+    height: 4vh;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-top: 0.5vh;
+}
+
 /**************Desktop****************/
 
 @media (min-width: 1024px) {
@@ -213,5 +232,11 @@ input[type="button"] {
     #msg_enc_dec>h5 {
         font-size: 1rem;
     }
-}
 
+    footer {
+        position: absolute;
+        width: 100vw;
+        bottom: 0;
+    }
+
+}
