@@ -119,6 +119,7 @@ input[type="button"] {
 }
 
 #msg_enc_dec>div {
+    max-width: 25vw;
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
